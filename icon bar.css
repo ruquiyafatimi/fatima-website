@@ -1,0 +1,24 @@
+div {
+  height: 400px;
+  width: 400px;
+  background-image: url("RJ_image.jpg.jpg");
+  background-size: cover;
+  border: 10px solid red;
+  border-radius: 50%;
+  animation: colorAnimate 2s ease-in 3s infinite alternate;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+} 
+p{
+  color: purple;
+  font-size: 40px;
+}
+
+@keyframes colorAnimate {
+  from { left:0px;}
+  to {left:900px;}
+}
+
+
+

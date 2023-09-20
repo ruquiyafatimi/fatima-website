@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+    
+
+}
+
+.title-img {
+    background-image: url("netflix_logo.jpg");
+    background-size: cover;
+   
+    
+
+}
+
+.img {
+    background-image: url("Netflix-logo-red-black-png.png");
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+}
+button {
+    background-color: red;
+      margin-top: 250px;
+     
+}
